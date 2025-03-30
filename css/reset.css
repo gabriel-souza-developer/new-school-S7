@@ -1,0 +1,78 @@
+* {
+    padding: 0 !important;
+    border: 0 !important;
+    margin: 0 !important;
+}
+/*Vareaveis*/
+:root {
+    --bs-azul-claro: #CCE2DC;
+    --bs-azul-intermediario: #0687A7;
+    --bs-azul-escuro: #003057;
+    --bs-verde-escuro: #0b5b7d;
+    --bs-laranja: #FFB01C;
+    --bs-verde: #CBD211;
+    --bs-verde-claro: rgb(209, 216, 50);
+
+
+    --color-verde-escuro: #1c3355;
+    --color-white: #fff;
+    --color-amarelo: #d2d836;
+}
+
+
+@font-face {
+    font-family: 'PlayfairDisplay-Bold';
+    src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+         url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+         url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('./fonts/OpenSans-Light.woff2') format('woff2'),
+         url('./fonts/OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('./fonts/OpenSans-SemiBold.woff2') format('woff2'),
+         url('./fonts/OpenSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-BoldItalic';
+    src: url('../fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+         url('../fonts/OpenSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenSans-Italic';
+    src: url('../fonts/OpenSans-Italic.woff2') format('woff2'),
+         url('../fonts/OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+/*Carrossel*/
+.carousel-control-next-icon {
+    background-image: url(../img/icons/Diretaseta.png) !important;
+}
+.carousel-control-prev-icon {
+    background-image: url(../img/icons/Esquerdaseta.png) !important;
+}
