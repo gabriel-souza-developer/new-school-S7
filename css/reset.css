@@ -1,9 +1,11 @@
+/* Resets */
 * {
     padding: 0 !important;
     border: 0 !important;
     margin: 0 !important;
 }
-/*Vareaveis*/
+
+/* Variáveis */
 :root {
     --bs-azul-claro: #CCE2DC;
     --bs-azul-intermediario: #0687A7;
@@ -13,13 +15,12 @@
     --bs-verde: #CBD211;
     --bs-verde-claro: rgb(209, 216, 50);
 
-
     --color-verde-escuro: #1c3355;
     --color-white: #fff;
     --color-amarelo: #d2d836;
 }
 
-
+/* Fontes */
 @font-face {
     font-family: 'PlayfairDisplay-Bold';
     src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
@@ -69,7 +70,7 @@
 }
 
 
-/*Carrossel*/
+/* Carrossel */
 .carousel-control-next-icon {
     background-image: url(../img/icons/Diretaseta.png) !important;
 }
